@@ -1,0 +1,47 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Veeam Backup & Replication Best Practice Guide
+description: >- # this means to ignore newlines until "baseurl:"
+  Best practice from the field for Veeam Backup & Replication
+baseurl: "/vbr" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+theme: just-the-docs
+
+# Just-the-docs Config
+
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: veeam
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2019-2021 Solutions Architects, Veeam Software."
+
+# Aux links for the upper right navigation
+aux_links:
+  "Veeam Help Center":
+    - "https://helpcenter.veeam.com/docs/backup/vsphere/overview.html"
+  "Privacy":
+    - "/vbr/privacy/"
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+ga_tracking: UA-169821219-4
+ga_tracking_anonymize_ip: true
+
+source: content/current/
